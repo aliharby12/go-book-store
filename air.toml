@@ -1,0 +1,7 @@
+[build]
+  bin = "./go-book-store"
+  cmd = "go build -o ./go-book-store ./main.go"
+  delay = "1000ms" # Set a delay for recompilation
+
+[web]
+  address = "127.0.0.1:8080"
